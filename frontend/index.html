@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Messaging</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Send WhatsApp Messages</h1>
+    <form id="messageForm">
+        <label for="sender">Your WhatsApp Number:</label>
+        <input type="text" id="sender" name="sender" required><br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        
+        <label for="recipients">Recipient Numbers (comma-separated):</label>
+        <input type="text" id="recipients" name="recipients" required><br><br>
+        
+        <button type="submit">Send Message</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
